@@ -1,0 +1,36 @@
+document.write('\
+\
+    <!DOCTYPE html>\
+    <html lang="en">\
+    <head>\
+        <meta charset="UTF-8">\
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">\
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+        <title>Plode Vanichaka</title>\
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" \integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">\
+        <link rel="stylesheet" href="css/styles.css">\
+        <link rel="stylesheet" href="https://kit.fontawesome.com/9ee5d6fe2e.css" crossorigin="anonymous">\
+        <script src="https://kit.fontawesome.com/9ee5d6fe2e.js" crossorigin="anonymous"></script>\
+    </head>\
+    <body>\
+    <nav class="navbar navbar-expand-lg">\
+        <div class="container-fluid">\
+            <a class="navbar-brand" href="#home-section">P</a>\
+            <ul class="nav nav-pills">\
+                <li class="nav-item">\
+                    <a href="#home-section" class="nav-link">Home</a>\
+                </li>\
+                <li class="nav-item">\
+                    <a href="#about-section" class="nav-link">About Me</a>\
+                </li>\
+                <li class="nav-item">\
+                    <a href="#" class="nav-link">Projects</a>\
+                </li>\
+                <li class="nav-item">\
+                <a href="#" class="nav-link">Resume</a>\
+                </li>\
+            </ul>\
+        </div>\
+    </nav>\
+\
+');

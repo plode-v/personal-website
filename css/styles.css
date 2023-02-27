@@ -1,0 +1,149 @@
+:root {
+    --navy: #020c1b;
+    --background: #122829;
+    --light-purple: #8892b0;
+    --lighter-purple: #b6bccf;
+    --lightest-purple: #dbdee7;
+    --cyan: #64ffda;
+    --techno-font: "courier"
+}
+
+
+/* header */
+.nav-link {
+    color: var(--lightest-purple);
+    font-family: var(--techno-font);
+    font-weight: 500;
+    transition:color 0.2s;
+}
+
+.nav-link:hover {
+    color: var(--cyan);
+}
+
+.navbar {
+    position:fixed;
+    width: 100%;
+}
+
+
+/* body */
+
+body {
+    color: var(--lighter-purple);
+    background-color: var(--navy);
+}
+
+#greeting {
+    color: var(--cyan);
+}
+
+
+.navbar-brand {
+    color: var(--light-purple);
+    font-family: var(--techno-font);
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-left: 15px;
+    transition: color 0.2s;
+}
+
+.navbar-brand:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#main-div {
+    height: auto;
+    width: auto;
+    background: linear-gradient(30deg, var(--background), var(--navy));
+}
+
+/* home section */
+
+#home-section {
+    padding-top: 250px;
+    height: 1000px;
+    width: auto;
+}
+
+.header {
+    width: 800px;
+    margin-left: 15%;
+}
+
+.header h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.header h2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.header p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+
+/* home2 section */
+
+.skills-div {
+    display: flex;
+    height: min-content;
+}
+
+#about-section {
+    height: 1000px;
+}
+
+.skills i {
+    vertical-align: middle;
+}
+
+.fa-play {
+    position:relative;
+    color: var(--lightest-purple);
+    font-size: 12px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.skills-td {
+    padding: 10px;
+}
+
+#skills-table {
+    margin: 10px;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    width: min-content;
+}
+
+.footer .col {
+    padding-top: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    line-height: 1.8;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    transition: color 0.3s;
+    color: var(--cyan);
+    -webkit-transition: font-size 0.2s;
+}

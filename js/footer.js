@@ -1,0 +1,20 @@
+document.write('\
+\
+<div class="container footer">\
+    <div class="col">\
+        <a href="https://github.com/plode-v" target="https://github.com/plode-v"><i class="fa-brands fa-github"></i></a>\
+    </div>\
+    <div class="col">\
+        <a href="https://www.linkedin.com/in/plode-vanichaka/" target="https://www.linkedin.com/in/plode-vanichaka/" ><i class="fa-brands fa-linkedin"></i></a>\
+    </div>\
+    <div class="footer-line">\
+    </div>\
+</div>\
+<script type="text/javascript" src="js/lib/jquery-1.11.1.min.js" ></script>\
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB\+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>\
+<script src="js/index.js"></script>\
+<script src="https://kit.fontawesome.com/9ee5d6fe2e.js" crossorigin="anonymous"></script>\
+</body>\
+</html>\
+\
+');
