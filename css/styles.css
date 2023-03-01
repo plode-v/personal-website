@@ -91,12 +91,18 @@ body {
 
 
 
-/* home2 section */
+/* about-me section */
 
 .skills-div {
     display: flex;
     height: min-content;
 }
+
+p.skills {
+    /* padding: 5px; */
+    margin: 10px;
+}
+
 
 #about-section {
     height: 1000px;
