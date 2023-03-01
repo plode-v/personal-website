@@ -17,6 +17,10 @@
     transition:color 0.2s;
 }
 
+.nav {
+    z-index: 2;
+}
+
 .nav-link:hover {
     color: var(--cyan);
 }
@@ -24,8 +28,9 @@
 .navbar {
     position:fixed;
     width: 100%;
+    background-color: var(--background);
+    opacity: 50%;
 }
-
 
 /* body */
 
